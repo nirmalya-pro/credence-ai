@@ -1,0 +1,17 @@
+{
+  "name": "credence-ai-server",
+  "version": "1.0.0",
+  "description": "Backend verification service for CREDENCE AI",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test:engine": "node audit-test.js",
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}

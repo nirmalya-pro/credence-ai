@@ -1,0 +1,21 @@
+{
+  "name": "credence-ai",
+  "version": "1.0.0",
+  "description": "CREDENCE AI — Confidence in Every Brand Claim",
+  "scripts": {
+    "install:all": "npm.cmd --prefix client install && npm.cmd --prefix server install",
+    "client:dev": "npm.cmd --prefix client run dev",
+    "client:build": "npm.cmd --prefix client run build",
+    "server:start": "npm.cmd --prefix server start",
+    "server:dev": "npm.cmd --prefix server run dev",
+    "test:engine": "node server/audit-test.js"
+  },
+  "keywords": [
+    "brand-governance",
+    "compliance",
+    "ai-verification",
+    "truth-ledger"
+  ],
+  "author": "Credence AI Team",
+  "license": "MIT"
+}
