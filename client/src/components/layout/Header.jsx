@@ -1,9 +1,17 @@
 import React from 'react';
 import { Building2, RotateCcw, Cpu, Menu } from 'lucide-react';
+<<<<<<< HEAD
 import { useApp } from '../../context/AppContext';
 
 export function Header() {
   const { brand, resetToDemoData, activeTab, connectionStatus, toggleSidebar } = useApp();
+=======
+const { brand, resetToDemoData, activeTab, connectionStatus, toggleSidebar } = useApp();
+import { useApp } from '../../context/AppContext';
+
+export function Header() {
+  const { brand, resetToDemoData, activeTab, connectionStatus } = useApp();
+>>>>>>> 5c7cbfa7fc7a1a7c61b748ab3370a60fb55f0875
 
   const tabTitles = {
     dashboard: 'Governance Overview',
@@ -39,6 +47,14 @@ export function Header() {
           <span>{brand.name}</span>
         </div>
 
+<<<<<<< HEAD
+=======
+        <div className="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-lg border border-slate-200 bg-white text-xs font-semibold text-midnight-950 shadow-sm">
+          <Building2 className="w-3.5 h-3.5 text-slate-700" />
+          <span>{brand.name}</span>
+        </div>
+
+>>>>>>> 5c7cbfa7fc7a1a7c61b748ab3370a60fb55f0875
         {/* Backend Connection Indicator */}
         <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold border border-slate-200 bg-slate-50 text-slate-700 shadow-sm">
           <span className={`w-2 h-2 rounded-full ${connectionStatus === 'connected' ? 'bg-lime-500 shadow-lime-sm' :
