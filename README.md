@@ -2,6 +2,16 @@
 ### Confidence in Every Brand Claim.
 
 <p align="center">
+  <a href="https://credence-ai-chi.vercel.app">
+    <img src="https://img.shields.io/badge/🚀_LIVE_DEMO-OPEN_CREDENCE_AI-C6F432?style=for-the-badge&labelColor=0B0B0C" alt="Live Demo"/>
+  </a>
+  <a href="https://github.com/nirmalya-pro/credence-ai">
+    <img src="https://img.shields.io/badge/GITHUB-SOURCE_CODE-FFFFFF?style=for-the-badge&logo=github&logoColor=black" alt="GitHub Repository"/>
+  </a>
+</p>
+
+
+<p align="center">
   <strong>An Evidence-First Brand Governance Platform</strong>
   <br/>
   Verify marketing claims, protect brand identity, and maintain trustworthy communication before publication.
