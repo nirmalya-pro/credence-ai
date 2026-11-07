@@ -1,10 +1,9 @@
 import React from 'react';
 import { Building2, RotateCcw, Cpu, Menu } from 'lucide-react';
-const { brand, resetToDemoData, activeTab, connectionStatus, toggleSidebar } = useApp();
 import { useApp } from '../../context/AppContext';
 
 export function Header() {
-  const { brand, resetToDemoData, activeTab, connectionStatus } = useApp();
+  const { brand, resetToDemoData, activeTab, connectionStatus, toggleSidebar } = useApp();
 
   const tabTitles = {
     dashboard: 'Governance Overview',
@@ -35,11 +34,6 @@ export function Header() {
           <Menu className="w-5 h-5" />
         </button>
         {/* Brand Header pill */}
-        <div className="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-lg border border-slate-200 bg-white text-xs font-semibold text-midnight-950 shadow-sm">
-          <Building2 className="w-3.5 h-3.5 text-slate-700" />
-          <span>{brand.name}</span>
-        </div>
-
         <div className="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-lg border border-slate-200 bg-white text-xs font-semibold text-midnight-950 shadow-sm">
           <Building2 className="w-3.5 h-3.5 text-slate-700" />
           <span>{brand.name}</span>
